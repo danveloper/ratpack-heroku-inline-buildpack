@@ -13,7 +13,6 @@ EOF
 if [ ! -f $BUILD_DIR/Procfile ]; then
 cat <<EOF
 default_process_types:
-  # YOU WILL NEED TO CHANGE "DEMO7" TO BE YOUR APP's NAME!!
-  web: build/install/demo7/bin/demo7 build/install/demo7/app/ratpack.groovy
+  web: build/install/demo/bin/demo build/install/demo/app/ratpack.groovy
 EOF
 fi
